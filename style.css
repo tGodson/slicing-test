@@ -1,0 +1,100 @@
+
+header {
+  height: 100vh;
+  padding: 5% 0% !important;
+  background-image: url("./assets/banner.png");
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav div {
+  float: left;
+  width: 33.33%;
+  border: rgb(224, 224, 224) solid 1px;
+  padding: 12px 0px;
+}
+nav div a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+header h1 {
+  margin: 5% 0 0 5%;
+  font-size: 120px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+section {
+  background-color: #f1f6f9;
+}
+
+.apply-now button{
+  background-color: #ee6c3b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  margin: 5% 0 10% 0;
+}
+section .review {
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  padding: 4%;
+}
+section img {
+  width: 100%;
+  height: auto;
+}
+main {
+  background-color: white;
+}
+ul li {
+  padding-bottom: 5px;
+}
+.review {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.card-section button {
+  color: white;
+  background-color: #64d8d1;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+.details, li span, .stars span {
+  color: #64d8d1;
+}
+.review sup, p sup {
+  font-size: xx-small;
+}
+h1 sup {
+  font-size: 20px;
+}
+.stars span {
+  font-size: large;
+}
+
+@media (max-width:767px)  {
+  nav div a span {
+    display: none;
+  }
+  section .stars {
+    display: none;
+  }
+  
+}
+
+@media (min-width:768px)  {
+  ul {
+    margin-bottom: 0 !important;
+  }
+  
+}
